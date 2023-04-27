@@ -8,6 +8,8 @@ namespace FrontToBack.Database
         public AppDb(DbContextOptions<AppDb> options) : base(options) { }
 
         public DbSet<Info> FAQ { get; set; }
+
+        public DbSet<Slider> Sliders { get; set; }
     }
 
 }

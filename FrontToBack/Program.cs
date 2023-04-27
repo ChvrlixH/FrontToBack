@@ -11,7 +11,7 @@ namespace FrontToBack
 
             builder.Services.AddDbContext<AppDb>(options =>
             {
-                options.UseSqlServer("Server=DESKTOP-0ETCTHF\\MSSQLSERVER01;Database=ProniaDB;Trusted_Connection=True");
+                options.UseSqlServer(builder.Configuration.GetConnectionString("DatabaseServer"));
             }
             );
 
@@ -20,6 +20,11 @@ namespace FrontToBack
             var app = builder.Build();
 
             app.UseStaticFiles();
+
+            app.MapControllerRoute(
+                name: "areas",
+                pattern: "{area:exists}/{controller=Dashboard}/{action=Index}/{id?}"
+                );
 
             app.MapControllerRoute(
                 name: "default",

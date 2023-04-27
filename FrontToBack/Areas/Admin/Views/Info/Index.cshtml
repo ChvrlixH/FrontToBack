@@ -1,0 +1,48 @@
+﻿@model List<Info>
+@{
+    ViewData["Title"] = "Info Page";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="content-wrapper">
+          <div class="row">
+
+        <div class="col-lg-12 grid-margin stretch-card">
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title">Basic Table</h4>
+                    <p class="card-description">
+                        Add class <code>.table</code>
+                    </p>
+                    <div class="table-responsive">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>Profile</th>
+                                    <th>VatNo.</th>
+                                    <th>Created</th>
+                                    <th>Status</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach(var InfoItem in Model)
+                                {
+                                <tr>
+                                    <td>
+                                            <img src="~/assets/admin/images/faces/@InfoItem.Image" /> 
+                                        </td>
+                                    <td>@InfoItem.Title</td>
+                                    <td>@InfoItem.Description</td>
+                                </tr>
+                                }
+                            
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+          
+          </div>
+ </div>
+

@@ -1,5 +1,6 @@
-﻿@using FrontToBack.Models
-@model List<Info>
+﻿
+@model HomeVM
+
 
 @{
     ViewData["Title"] = "Home Page";
@@ -108,7 +109,7 @@
         <div class="container">
           <div class="shipping-bg">
             <div class="row shipping-wrap">
-                @foreach (var InfoItem in Model)
+                @foreach (var InfoItem in Model.infos)
                 {
               <div class="col-lg-4 col-md-6">
                 <div class="shipping-item">

@@ -1,7 +1,4 @@
-﻿using FrontToBack.Database;
-using FrontToBack.Models;
-using Microsoft.AspNetCore.Mvc;
-
+﻿
 namespace FrontToBack.Controllers
 {
     public class HomeController : Controller
@@ -16,7 +13,17 @@ namespace FrontToBack.Controllers
         public IActionResult Index()
         {
             List<Info> FAQ = _context.FAQ.ToList();
-            return View(FAQ);
+            List<Slider> sliders = _context.Sliders.ToList();
+
+
+            HomeVM homeVM = new()
+            {
+                infos = FAQ,
+                Sliders= sliders
+            };
+
+            return View(homeVM);
+
         }
     }
 }
