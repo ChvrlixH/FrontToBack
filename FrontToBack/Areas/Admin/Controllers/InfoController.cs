@@ -13,9 +13,9 @@ namespace FrontToBack.Areas.Admin.Controllers
         }
         public IActionResult Index()
         {
-            List<Info> FAQ = _context.FAQ.ToList();
+            List<Info> faq = _context.FAQ.ToList();
 
-            return View(FAQ);
+            return View(faq);
         }
 
         public IActionResult Create()
@@ -25,9 +25,12 @@ namespace FrontToBack.Areas.Admin.Controllers
 
         [HttpPost]
 
-        public IActionResult Create(string image, string title, string description)
+        public IActionResult Create(Info info)
         {
-            return View();
+            _context.FAQ.Add(info);
+            _context.SaveChanges();
+
+            return RedirectToAction(nameof(Index));
         }
     }
 }
