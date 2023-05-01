@@ -121,6 +121,10 @@
       "PackagePath": "staticwebassets\\assets\\admin\\images\\faces\\.DS_Store"
     },
     {
+      "Id": "C:\\Users\\Asus\\source\\repos\\FrontToBack\\FrontToBack\\wwwroot\\assets\\admin\\images\\faces\\CEO.jpg",
+      "PackagePath": "staticwebassets\\assets\\admin\\images\\faces\\CEO.jpg"
+    },
+    {
       "Id": "C:\\Users\\Asus\\source\\repos\\FrontToBack\\FrontToBack\\wwwroot\\assets\\admin\\images\\faces\\face1.jpg",
       "PackagePath": "staticwebassets\\assets\\admin\\images\\faces\\face1.jpg"
     },
@@ -295,6 +299,78 @@
     {
       "Id": "C:\\Users\\Asus\\source\\repos\\FrontToBack\\FrontToBack\\wwwroot\\assets\\admin\\js\\template.js",
       "PackagePath": "staticwebassets\\assets\\admin\\js\\template.js"
+    },
+    {
+      "Id": "C:\\Users\\Asus\\source\\repos\\FrontToBack\\FrontToBack\\wwwroot\\assets\\admin\\pages\\.DS_Store",
+      "PackagePath": "staticwebassets\\assets\\admin\\pages\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\Asus\\source\\repos\\FrontToBack\\FrontToBack\\wwwroot\\assets\\admin\\pages\\charts\\.DS_Store",
+      "PackagePath": "staticwebassets\\assets\\admin\\pages\\charts\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\Asus\\source\\repos\\FrontToBack\\FrontToBack\\wwwroot\\assets\\admin\\pages\\charts\\chartjs.html",
+      "PackagePath": "staticwebassets\\assets\\admin\\pages\\charts\\chartjs.html"
+    },
+    {
+      "Id": "C:\\Users\\Asus\\source\\repos\\FrontToBack\\FrontToBack\\wwwroot\\assets\\admin\\pages\\forms\\.DS_Store",
+      "PackagePath": "staticwebassets\\assets\\admin\\pages\\forms\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\Asus\\source\\repos\\FrontToBack\\FrontToBack\\wwwroot\\assets\\admin\\pages\\forms\\basic_elements.html",
+      "PackagePath": "staticwebassets\\assets\\admin\\pages\\forms\\basic_elements.html"
+    },
+    {
+      "Id": "C:\\Users\\Asus\\source\\repos\\FrontToBack\\FrontToBack\\wwwroot\\assets\\admin\\pages\\icons\\.DS_Store",
+      "PackagePath": "staticwebassets\\assets\\admin\\pages\\icons\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\Asus\\source\\repos\\FrontToBack\\FrontToBack\\wwwroot\\assets\\admin\\pages\\icons\\mdi.html",
+      "PackagePath": "staticwebassets\\assets\\admin\\pages\\icons\\mdi.html"
+    },
+    {
+      "Id": "C:\\Users\\Asus\\source\\repos\\FrontToBack\\FrontToBack\\wwwroot\\assets\\admin\\pages\\samples\\.DS_Store",
+      "PackagePath": "staticwebassets\\assets\\admin\\pages\\samples\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\Asus\\source\\repos\\FrontToBack\\FrontToBack\\wwwroot\\assets\\admin\\pages\\samples\\lock-screen.html",
+      "PackagePath": "staticwebassets\\assets\\admin\\pages\\samples\\lock-screen.html"
+    },
+    {
+      "Id": "C:\\Users\\Asus\\source\\repos\\FrontToBack\\FrontToBack\\wwwroot\\assets\\admin\\pages\\samples\\login-2.html",
+      "PackagePath": "staticwebassets\\assets\\admin\\pages\\samples\\login-2.html"
+    },
+    {
+      "Id": "C:\\Users\\Asus\\source\\repos\\FrontToBack\\FrontToBack\\wwwroot\\assets\\admin\\pages\\samples\\login.html",
+      "PackagePath": "staticwebassets\\assets\\admin\\pages\\samples\\login.html"
+    },
+    {
+      "Id": "C:\\Users\\Asus\\source\\repos\\FrontToBack\\FrontToBack\\wwwroot\\assets\\admin\\pages\\samples\\register-2.html",
+      "PackagePath": "staticwebassets\\assets\\admin\\pages\\samples\\register-2.html"
+    },
+    {
+      "Id": "C:\\Users\\Asus\\source\\repos\\FrontToBack\\FrontToBack\\wwwroot\\assets\\admin\\pages\\samples\\register.html",
+      "PackagePath": "staticwebassets\\assets\\admin\\pages\\samples\\register.html"
+    },
+    {
+      "Id": "C:\\Users\\Asus\\source\\repos\\FrontToBack\\FrontToBack\\wwwroot\\assets\\admin\\pages\\tables\\.DS_Store",
+      "PackagePath": "staticwebassets\\assets\\admin\\pages\\tables\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\Asus\\source\\repos\\FrontToBack\\FrontToBack\\wwwroot\\assets\\admin\\pages\\tables\\basic-table.html",
+      "PackagePath": "staticwebassets\\assets\\admin\\pages\\tables\\basic-table.html"
+    },
+    {
+      "Id": "C:\\Users\\Asus\\source\\repos\\FrontToBack\\FrontToBack\\wwwroot\\assets\\admin\\pages\\ui-features\\.DS_Store",
+      "PackagePath": "staticwebassets\\assets\\admin\\pages\\ui-features\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\Asus\\source\\repos\\FrontToBack\\FrontToBack\\wwwroot\\assets\\admin\\pages\\ui-features\\buttons.html",
+      "PackagePath": "staticwebassets\\assets\\admin\\pages\\ui-features\\buttons.html"
+    },
+    {
+      "Id": "C:\\Users\\Asus\\source\\repos\\FrontToBack\\FrontToBack\\wwwroot\\assets\\admin\\pages\\ui-features\\typography.html",
+      "PackagePath": "staticwebassets\\assets\\admin\\pages\\ui-features\\typography.html"
     },
     {
       "Id": "C:\\Users\\Asus\\source\\repos\\FrontToBack\\FrontToBack\\wwwroot\\assets\\admin\\vendors\\.DS_Store",
