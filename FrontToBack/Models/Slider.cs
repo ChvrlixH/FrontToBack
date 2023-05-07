@@ -1,13 +1,22 @@
-﻿namespace FrontToBack.Models
+﻿using Microsoft.Build.Framework;
+using System.ComponentModel.DataAnnotations;
+using RequiredAttribute = System.ComponentModel.DataAnnotations.RequiredAttribute;
+
+namespace FrontToBack.Models
 {
     public class Slider
     {
-        public int id { get; set; }
-        public string name { get; set; }
+        public int Id { get; set; }
 
-        public string description { get; set; }
-        public int offer { get; set; }
-        public string image { get; set; }
+        [Required, MaxLength(25)]
+        public string Name { get; set; }
+
+        [Required, MaxLength(60)]
+        public string Description { get; set; }
+
+        public int Offer { get; set; }
+
+        public string Image { get; set; }
 
     }
 }
